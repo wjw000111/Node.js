@@ -1,0 +1,21 @@
+Node.js
+    运行在服务器的js
+    用来编写服务器
+    特点：
+        -单线程，异步，非阻塞
+        -统一API
+nvm
+    -命令：
+        nvm list -显示已安装的node版本
+        nvm install 版本 -安装执行版本的Node
+            nvm install latest 下载最新版本
+            nvm install lts 下载稳定版
+        配置nvm的镜像服务器
+            nvm node_mirror https://npmmirror.com/mirrors/node/
+        nvm use 版本 -指定要使用的node的版本
+node.js代码的执行
+    1.终端 ,node 文件名
+    2.vscode , f5 ，选择node.js执行
+
+node.js 和 javascript的区别
+        ECMAscript(node有) DOM(node没有) BOM
